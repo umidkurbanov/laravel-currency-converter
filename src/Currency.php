@@ -1,6 +1,6 @@
 <?php
 
-namespace AreaWeb\LaravelPackage;
+namespace Umid\LaravelCurrencyConverter;
 
 use Illuminate\Support\Facades\Http;
 

@@ -4,7 +4,7 @@
   "description": "Example Laravel package for AreaWeb",
   "autoload": {
     "psr-4": {
-      "AreaWeb\\LaravelPackage\\": "src/"
+      "Umid\\LaravelCurrencyConverter\\": "src/"
     }
   },
   "autoload-dev": {
@@ -27,7 +27,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "AreaWeb\\LaravelPackage\\Providers\\LaravelPackageServiceProvider"
+        "Umid\\LaravelCurrencyConverter\\Providers\\LaravelPackageServiceProvider"
       ]
     }
   }

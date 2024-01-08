@@ -1,9 +1,9 @@
 <?php
 
-namespace AreaWeb\LaravelPackage\Providers;
+namespace Umid\LaravelCurrencyConverter\Providers;
 
-use AreaWeb\LaravelPackage\Currency;
 use Illuminate\Support\ServiceProvider;
+use Umid\LaravelCurrencyConverter\Currency;
 
 class LaravelPackageServiceProvider extends ServiceProvider
 {
