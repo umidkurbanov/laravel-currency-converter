@@ -1,0 +1,34 @@
+{
+  "name": "umid/laravel-package",
+  "version": "1.0.0",
+  "description": "Example Laravel package for AreaWeb",
+  "autoload": {
+    "psr-4": {
+      "AreaWeb\\LaravelPackage\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+
+    }
+  },
+  "authors": [
+    {
+      "name": "Umid Kurbanov",
+      "email": "hello@umid.su"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AreaWeb\\LaravelPackage\\Providers\\LaravelPackageServiceProvider"
+      ]
+    }
+  }
+}
